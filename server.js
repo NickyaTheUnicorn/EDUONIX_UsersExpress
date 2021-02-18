@@ -16,7 +16,7 @@ const usersRouter = require('./routes/user');
 MONGO_DB_KEY = process.env.MONGO_DB_KEY;
 DB_NAME = process.env.DB_NAME;
 
-const MongoURI = `mongodb+srv://rennery:${MONGO_DB_KEY}@meanfullstackcours.vwemt.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`
+const MongoURI = `mongodb+srv://eudonix:${MONGO_DB_KEY}@meanfullstackcours.vwemt.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`
 
 mongoose.connect(MongoURI, {
   useNewUrlParser: true,
